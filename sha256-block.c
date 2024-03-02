@@ -1,7 +1,7 @@
 #include <stdint.h>
  
 /* Process LEN bytes of BUFFER, accumulating context into CTX.
-   It is assumed that LEN % 64 == 0.  */
+   It is assumed that LEN % 64 == 0  */
 void
 __sha256_process_block (const void *buffer, size_t len, struct sha256_ctx *ctx)
 {
